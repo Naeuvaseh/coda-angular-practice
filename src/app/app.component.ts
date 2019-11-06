@@ -7,9 +7,4 @@ import { Component } from '@angular/core';
 })
 export class AppComponent  {
   name = 'Angular';
-
-  // Create a resuable component that can be used to generate a list of pizza toppings. Don't forget to include:
-  //   - Topping name
-  //   - Price
-  //   - Additional properties
 }
