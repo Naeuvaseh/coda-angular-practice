@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { Order, Pizza, Side } from '../models';
+import { Order, Pizza, Sides } from '../models';
 
 @Component({
   selector: 'coda-order',
@@ -19,7 +19,7 @@ export class OrderComponent implements OnInit {
 
   }
 
-  addSide(side: Side){
+  addSide(side: Sides){
 
   }
 
@@ -27,7 +27,7 @@ export class OrderComponent implements OnInit {
 
   }
 
-  removeSide(side: Side){
+  removeSide(side: Sides){
 
   }
 
