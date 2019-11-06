@@ -8,9 +8,16 @@ import { Order, Pizza, Sides } from '../models';
 })
 export class OrderComponent implements OnInit {
 
+  // TODO #1: Create a few default pizzas to start
   order = this.initOrder();
 
-  constructor() { }
+  constructor() {
+    // TODO: In /order, create "components" and "container" directories.
+    // TODO: In /container, create a new component called 'pizza'.
+    // TODO: In /component, create a new component called 'topping'
+    // TODO #3: Create a new interface called 'Topping' with name, price, and id as properties.
+    // TODO #4: Update the Pizza interface to allow an array of Toppings.
+  }
 
   ngOnInit() { }
 
