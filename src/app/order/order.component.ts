@@ -12,24 +12,15 @@ export class OrderComponent implements OnInit {
 
   constructor() { }
 
-  ngOnInit() {
-  }
+  ngOnInit() { }
 
-  addPizza(pizza: Pizza) {
+  addPizza(pizza: Pizza) { }
 
-  }
+  addSide(side: Sides){ }
 
-  addSide(side: Sides){
+  removePizza(pizza: Pizza) { }
 
-  }
-
-  removePizza(pizza: Pizza) {
-
-  }
-
-  removeSide(side: Sides){
-
-  }
+  removeSide(side: Sides){ }
 
   private initOrder(): Order {
     return {
