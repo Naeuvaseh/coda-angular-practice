@@ -25,7 +25,11 @@ export class AppComponent  {
 
     #4: Inside /models, export an interface called Sides with name, id, and price properties. 
 
-    #5: Inside /models, export an interface called 
+    #5: Inside /models, export an interface called Order with pizza, sides, tax, and total   
+        properties.
+
+    #6: Inside the Order component, create methods called addPizza, removePizza, addSide, 
+        removeSide with appropriate parameters and types.    
  
  */  
   
