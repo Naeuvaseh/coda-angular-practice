@@ -17,8 +17,9 @@ export class AppComponent  {
     - (Additional properties)
  
   TODO:
+  
     #1: Generate a new "order" component (within /app) that will be the container component for our pizza toppings. Add it to the AppComponent html markup under the title.
-    
+
     #2: Inside /app, create an "enums" and "modles" folder.
 
     #3: Inside /models, export an interface called Pizza with name, id, and price properties.
@@ -30,6 +31,8 @@ export class AppComponent  {
 
     #6: Inside the Order component, create methods called addPizza, removePizza, addSide, 
         removeSide with appropriate parameters and types.    
+
+    #7: Initialize an 'order' of type Order property with default values
  
  */  
 }
