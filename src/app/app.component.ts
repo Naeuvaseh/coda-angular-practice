@@ -11,5 +11,6 @@ export class AppComponent  {
   // Create a resuable component that can be used to generate a list of pizza toppings. Don't forget to include:
   //   - Topping name
   //   - Price
+  //   - ID
   //   - Additional properties
 }
