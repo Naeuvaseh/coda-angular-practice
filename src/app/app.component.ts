@@ -19,7 +19,13 @@ export class AppComponent  {
   TODO:
     #1: Generate a new "order" component (within /app) that will be the container component for our pizza toppings.
     
-    #2: Create 
+    #2: Inside /app, create an "enums" and "modles" folder.
+
+    #3: Inside /models, export an interface called Pizza with name, id, and price properties.
+
+    #4: Inside /models, export an interface called Sides with name, id, and price properties. 
+
+    #5: Inside /models, export an interface called 
  
  */  
   
