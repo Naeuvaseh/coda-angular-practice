@@ -17,21 +17,29 @@ export class OrderComponent implements OnInit {
     // TODO: In /component, create a new component called 'topping'
     // TODO #3: Create a new interface called 'Topping' with name, price, and id as properties.
     // TODO #4: Update the Pizza interface to allow an array of Toppings.
+    // TODO: Implement methods below
   }
 
   ngOnInit() { }
 
-  addPizza(pizza: Pizza) { }
+  addPizza(pizza: Pizza) {
+    this.order.pizza.push(pizza);
+  }
 
-  addSide(side: Sides){ }
+  addSide(side: Sides){
+    this.order.sides.push(side);
+   }
 
   removePizza(pizza: Pizza) { }
 
-  removeSide(side: Sides){ }
+  removeSide(side: Sides) { }
 
   private initOrder(): Order {
     return {
-      pizza: [],
+      pizza: [{
+        id: 1,
+        name: 'TJ'
+      }],
       sides: [],
       tax: 0,
       total: 0
